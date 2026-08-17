@@ -1,0 +1,242 @@
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pardo Muñoz Soluciones | Ingeniería • Calidad • Seguridad • Confianza</title>
+<style>
+:root{--b:#0d2d55;--g:#3f8f2f;--l:#f3f7f4;--t:#52606d}*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;color:var(--b);line-height:1.6}header{position:sticky;top:0;background:white;border-bottom:1px solid #ddd;z-index:5}
+.nav{max-width:1150px;margin:auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between}.logo{height:62px;width:auto}nav a{margin-left:18px;text-decoration:none;color:var(--b);font-weight:bold}
+section{padding:65px 20px}.wrap{max-width:1150px;margin:auto}.hero{background:linear-gradient(135deg,#f7faf8,#eaf2ed)}
+.hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.hero h1{font-size:clamp(2.3rem,5vw,4rem);line-height:1.1}.hero h1 span{color:var(--g)}
+.hero p{color:var(--t);font-size:1.1rem}.btn{display:inline-block;background:var(--g);color:white;padding:13px 21px;border-radius:8px;text-decoration:none;font-weight:bold}.hero img{max-width:100%;background:white;border-radius:20px;padding:25px;box-shadow:0 12px 30px #0002}
+h2{text-align:center;font-size:2.1rem;margin:0 0 10px}.intro{text-align:center;color:var(--t);max-width:850px;margin:0 auto 35px}.light{background:var(--l)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border:1px solid #e1e7e3;border-radius:15px;padding:24px;box-shadow:0 5px 16px #0000000c}.card h3{margin:8px 0}.card p,.card li{color:var(--t)}.num{color:var(--g);font-size:1.5rem;font-weight:bold}
+.sector{transition:.2s}.sector:hover{transform:translateY(-3px)}.icon{font-size:2.1rem}.risk{color:var(--g);font-weight:bold;font-size:.9rem}.sector a{color:var(--g);font-weight:bold;text-decoration:none}
+.note{margin-top:25px;background:#e8f2ea;border-left:5px solid var(--g);padding:20px;border-radius:8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}.goal,.value{background:white;border-radius:14px;padding:22px;border:1px solid #e1e7e3}.value{text-align:center}
+.contact{background:var(--b);color:white;text-align:center}.contact p{color:#e8eef4}.contact .btn{background:white;color:var(--b)}footer{background:#081e38;color:white;text-align:center;padding:20px}
+@media(max-width:800px){.nav{flex-direction:column}.logo{height:55px}nav{margin-top:8px}nav a{margin:0 6px;font-size:.85rem}.hero .wrap,.two{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+
+.whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:50;background:#25D366;color:#fff;text-decoration:none;border-radius:50px;padding:13px 19px;display:flex;align-items:center;gap:9px;font-weight:800;box-shadow:0 5px 18px #0003;font-size:15px;transition:.2s}
+.whatsapp-float:hover{transform:translateY(-3px);box-shadow:0 8px 22px #0004}
+.whatsapp-float .wa-icon{font-size:22px}
+@media(max-width:600px){.whatsapp-float{right:14px;bottom:14px;padding:12px 15px;font-size:13px}.whatsapp-float .wa-text{display:none}.whatsapp-float{width:52px;height:52px;justify-content:center;border-radius:50%}}
+
+/* Ajustes responsive para computadores, tabletas y celulares */
+html, body { max-width:100%; overflow-x:hidden; }
+img { max-width:100%; height:auto; }
+
+.enfoque-imagen {
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  overflow:hidden;
+  border-radius:18px;
+  box-shadow:0 8px 25px #0002;
+  background:#fff;
+}
+.enfoque-imagen img {
+  display:block;
+  width:100%;
+  height:auto;
+  max-width:100%;
+}
+
+@media (max-width: 900px) {
+  section { padding:52px 18px; }
+  .hero .wrap { gap:28px; }
+  .grid { grid-template-columns:repeat(2, minmax(0,1fr)); }
+  .nav { padding:10px 16px; }
+  nav { max-width:100%; overflow-x:auto; white-space:nowrap; padding-bottom:4px; scrollbar-width:none; }
+  nav::-webkit-scrollbar { display:none; }
+  nav a { display:inline-block; margin:0 9px; }
+}
+
+@media (max-width: 600px) {
+  header { position:sticky; top:0; }
+  .nav { gap:5px; }
+  .logo { height:48px; max-width:190px; object-fit:contain; }
+  nav { width:100%; text-align:left; }
+  nav a { font-size:.82rem; margin:0 7px; }
+  section { padding:42px 14px; }
+  .hero .wrap { grid-template-columns:1fr; gap:22px; }
+  .hero h1 { font-size:2.35rem; }
+  .hero img { padding:14px; border-radius:14px; }
+  .grid { grid-template-columns:1fr; }
+  .two { grid-template-columns:1fr; }
+  .card { padding:20px; }
+  .enfoque-imagen { border-radius:12px; }
+  .enfoque-imagen img { width:100%; min-width:0; }
+  .whatsapp-float { bottom:16px; right:14px; z-index:100; }
+  .contact { padding-bottom:88px; }
+}
+
+@media (max-width: 380px) {
+  .logo { height:43px; max-width:165px; }
+  nav a { font-size:.76rem; margin:0 5px; }
+  .hero h1 { font-size:2rem; }
+  .btn { width:100%; text-align:center; }
+}
+
+.email-btn{
+  display:inline-block;
+  background:white;
+  color:#0d2d55;
+  border:2px solid white;
+  padding:13px 21px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  margin-left:10px;
+  transition:.2s;
+}
+.email-btn:hover{
+  background:#eaf2ed;
+  transform:translateY(-2px);
+}
+@media(max-width:600px){
+  .email-btn{
+    display:block;
+    width:100%;
+    max-width:360px;
+    margin:12px auto 0;
+    text-align:center;
+  }
+}
+
+/* Rediseño responsive de la sección Contacto */
+.contact{padding:70px 20px;background:var(--b);color:#fff;text-align:center}
+.contact h2{color:#fff;margin-bottom:12px}
+.contact-intro{max-width:780px;margin:0 auto 38px;color:#e8eef4;font-size:1.08rem}
+.contact-grid{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.contact-card{background:#fff;color:var(--b);border-radius:18px;padding:30px 24px;box-shadow:0 10px 30px #0003;display:flex;flex-direction:column;align-items:center;min-width:0}
+.contact-icon{font-size:2.6rem;margin-bottom:8px}
+.contact-card h3{font-size:1.35rem;margin:4px 0 8px}
+.contact-card p{color:var(--t);margin:0 auto 20px;max-width:350px}
+.contact-btn{display:block;width:100%;max-width:330px;padding:14px 18px;border-radius:9px;text-decoration:none;font-weight:800;transition:.2s}
+.whatsapp-btn{background:#25D366;color:#fff}
+.email-contact-btn{background:var(--g);color:#fff}
+.contact-btn:hover{transform:translateY(-2px);box-shadow:0 6px 15px #0002}
+.contact-data{margin-top:12px;font-weight:800;color:var(--b)}
+.email-address{margin-top:13px;color:var(--b);font-weight:800;text-decoration:none;overflow-wrap:anywhere}
+.email-address:hover{color:var(--g)}
+.contact-message{max-width:900px;margin:28px auto 0;padding:18px;border:1px solid #ffffff40;border-radius:12px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;color:#fff}
+.contact-message span{color:#dce6ef}
+@media(max-width:800px){
+  .contact-grid{grid-template-columns:1fr;max-width:560px}
+}
+@media(max-width:600px){
+  .contact{padding:52px 14px 90px}
+  .contact h2{font-size:1.85rem}
+  .contact-intro{font-size:1rem;margin-bottom:28px}
+  .contact-card{padding:25px 18px}
+  .contact-btn{max-width:none}
+  .contact-message{font-size:.92rem}
+}
+</style></head><body>
+<a class="whatsapp-float"
+   href="https://wa.me/573164722376?text=Hola%2C%20estoy%20interesado%28a%29%20en%20los%20servicios%20de%20Pardo%20Mu%C3%B1oz%20Soluciones.%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20y%20asesor%C3%ADa%20para%20mi%20empresa."
+   target="_blank" aria-label="Contactar por WhatsApp">
+   <span class="wa-icon">💬</span><span class="wa-text">Solicitar asesoría</span>
+</a>
+
+<header><div class="nav"><img class="logo" src="logo-pardo-munoz.jpg" alt="Pardo Muñoz Soluciones"><nav>
+<a href="#inicio">Inicio</a><a href="#nosotros">Quiénes somos</a><a href="#servicios">Servicios</a><a href="#clientes">A quiénes ayudamos</a><a href="#enfoque">Nuestro enfoque</a><a href="#contacto">Contacto</a></nav></div></header>
+
+<section id="inicio" class="hero"><div class="wrap"><div>
+<p><strong>Ingeniería • Calidad • Seguridad • Confianza</strong></p><h1>Soluciones que fortalecen <span>su empresa</span></h1>
+<p><strong>Pardo Muñoz Soluciones</strong> brinda asesoría, consultoría, implementación, auditoría, capacitación y acompañamiento en Sistemas Integrados de Gestión, con énfasis en SG-SST, ISO 9001, ISO 45001 y requisitos legales.</p>
+<a class="btn" href="https://wa.me/573164722376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Pardo%20Mu%C3%B1oz%20Soluciones" target="_blank">Solicitar asesoría</a></div>
+<img src="logo-pardo-munoz.jpg" alt="Logo Pardo Muñoz Soluciones"></div></section>
+
+<section id="nosotros" class="light"><div class="wrap"><h2>Quiénes somos</h2><p class="intro">Acompañamos a las organizaciones para cumplir requisitos, prevenir riesgos, optimizar procesos y fortalecer una cultura de calidad, seguridad y mejora continua.</p>
+<div class="two"><div class="card"><h3>Actividad económica</h3><p>Asesoría, implementación, auditoría, capacitación y acompañamiento en Sistemas Integrados de Gestión, con énfasis en <strong>SG-SST, ISO 9001, ISO 45001 e implementación de requisitos legales</strong>.</p></div>
+<div class="card"><h3>Misión</h3><p>Brindar soluciones integrales en consultoría, asesoría e implementación de Sistemas de Gestión que permitan cumplir la normatividad vigente, optimizar procesos, reducir riesgos y fortalecer la mejora continua.</p></div>
+<div class="card"><h3>Visión</h3><p>Para el año <strong>2031</strong>, ser reconocida como una empresa líder en Colombia en consultoría de Sistemas de Gestión, destacándose por excelencia técnica, innovación y compromiso con el crecimiento sostenible de sus clientes.</p></div></div></div></section>
+
+<section id="servicios"><div class="wrap"><h2>Portafolio de servicios</h2><p class="intro">Soluciones integrales para ayudar a su organización a cumplir, mejorar y crecer.</p><div class="grid">
+<div class="card"><b class="num">01</b><h3>Implementación del SG-SST</h3><p>Diagnóstico, documentación, matriz de peligros, matriz legal, planes de emergencia, indicadores, capacitación e investigación de accidentes.</p></div>
+<div class="card"><b class="num">02</b><h3>ISO 9001</h3><p>Diseño e implementación del Sistema de Gestión de la Calidad, documentación de procesos, indicadores, auditorías y mejora.</p></div>
+<div class="card"><b class="num">03</b><h3>ISO 45001</h3><p>Implementación, diagnóstico, identificación de peligros, documentación, auditorías y seguimiento del Sistema de Gestión.</p></div>
+<div class="card"><b class="num">04</b><h3>Auditorías internas</h3><p>Evaluación de fortalezas, incumplimientos, riesgos y oportunidades de mejora.</p></div>
+<div class="card"><b class="num">05</b><h3>Capacitaciones</h3><p>Formación adaptada a las necesidades de cada organización en SST, calidad, riesgos y Sistemas de Gestión.</p></div>
+<div class="card"><b class="num">06</b><h3>Consultoría e integración</h3><p>Consultoría mensual e integración de Sistemas de Gestión para lograr una administración organizada y eficiente.</p></div>
+</div></div></section>
+
+
+<section class="light" id="enfoque">
+  <div class="wrap">
+    <h2>Nuestro enfoque</h2>
+    <p class="intro">
+      En Pardo Muñoz Soluciones combinamos auditoría, mejora continua, capacitación
+      y prevención de riesgos para fortalecer la gestión y la seguridad de las organizaciones.
+    </p>
+    <div class="enfoque-imagen">
+      <img src="auditorias-mejora-capacitacion-prevencion.png"
+           alt="Auditorías, mejora continua, capacitación y prevención de riesgos - Pardo Muñoz Soluciones"
+           loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section id="clientes" class="light"><div class="wrap"><h2>¿A quiénes ayudamos?</h2>
+<p class="intro">Acompañamos organizaciones de diferentes sectores con soluciones prácticas y personalizadas. En el caso de las empresas, nuestros servicios están dirigidos principalmente a organizaciones clasificadas en <strong>niveles de riesgo I, II y III</strong>.</p>
+<div class="grid">
+<div class="card sector"><div class="icon">🏭</div><h3>Empresas manufactureras</h3><div class="risk">Riesgo I, II y III</div><p>Fortalecemos SG-SST, ISO 9001, ISO 45001, gestión de riesgos, cumplimiento legal y mejora de procesos.</p><a href="#contacto">Fortalecer mi empresa →</a></div>
+<div class="card sector"><div class="icon">🎓</div><h3>Instituciones educativas</h3><p>Acompañamos colegios, universidades y centros de formación en SG-SST, riesgos, planes de emergencia, requisitos legales y capacitación.</p><a href="#contacto">Proteger mi institución →</a></div>
+<div class="card sector"><div class="icon">🏢</div><h3>Empresas de servicios</h3><div class="risk">Riesgo I, II y III</div><p>Fortalecemos Sistemas de Gestión, SG-SST, ISO 9001, auditorías, indicadores y cumplimiento legal.</p><a href="#contacto">Mejorar mis procesos →</a></div>
+<div class="card sector"><div class="icon">🛍️</div><h3>Empresas comerciales</h3><div class="risk">Riesgo I, II y III</div><p>Soluciones para seguridad, gestión documental, procesos, prevención de riesgos y mejora continua.</p><a href="#contacto">Organizar mi empresa →</a></div>
+<div class="card sector"><div class="icon">📈</div><h3>MiPymes</h3><div class="risk">Riesgo I, II y III</div><p>Soluciones prácticas y adaptadas para organizar procesos, gestionar riesgos, cumplir requisitos y crecer sosteniblemente.</p><a href="#contacto">Quiero asesoría →</a></div>
+<div class="card sector"><div class="icon">⛪</div><h3>Iglesias católicas</h3><p>Acompañamos parroquias, diócesis, comunidades religiosas y organizaciones vinculadas a la Iglesia Católica en SG-SST, prevención de riesgos, planes de emergencia, capacitación y organización de procesos.</p><a href="#contacto">Proteger nuestra comunidad →</a></div>
+</div>
+<div class="note"><strong>Nota de alcance:</strong> Pardo Muñoz Soluciones atiende principalmente micro, pequeñas y medianas empresas clasificadas en niveles de riesgo I, II y III, además de instituciones educativas, empresas de servicios, empresas comerciales e iglesias católicas. Los servicios se adaptan a la actividad económica, tamaño, número de trabajadores, condiciones de operación y requisitos legales aplicables de cada organización.</div>
+</div></section>
+
+<section><div class="wrap"><h2>Objetivos estratégicos</h2><p class="intro">Metas que orientan nuestro crecimiento y nuestro compromiso con los clientes.</p><div class="grid">
+<div class="card"><h3>🎯 Posicionamiento</h3><p>Posicionar a Pardo Muñoz Soluciones como una marca reconocida en Colombia por la calidad y confiabilidad de sus servicios.</p></div>
+<div class="card"><h3>🤝 Crecimiento</h3><p>Alcanzar 50 clientes activos durante los primeros dos años.</p></div>
+<div class="card"><h3>⭐ Satisfacción</h3><p>Mantener un índice de satisfacción superior al 95%.</p></div>
+<div class="card"><h3>📈 Diversificación</h3><p>Ampliar progresivamente el portafolio con nuevas normas ISO y servicios especializados.</p></div>
+</div></div></section>
+
+<section class="light"><div class="wrap"><h2>Valores corporativos</h2><p class="intro">Los principios que orientan nuestro trabajo.</p><div class="grid">
+<div class="value"><h3>Integridad</h3><p>Honestidad, transparencia y ética profesional.</p></div><div class="value"><h3>Responsabilidad</h3><p>Cumplimiento serio de nuestros compromisos.</p></div><div class="value"><h3>Calidad</h3><p>Servicios confiables y orientados a resultados.</p></div><div class="value"><h3>Innovación</h3><p>Nuevas alternativas para mejorar continuamente.</p></div><div class="value"><h3>Compromiso</h3><p>Dedicación y responsabilidad en cada proyecto.</p></div><div class="value"><h3>Confianza</h3><p>Relaciones basadas en respeto y transparencia.</p></div><div class="value"><h3>Orientación al cliente</h3><p>Soluciones acordes con la realidad de cada organización.</p></div><div class="value"><h3>Mejora continua</h3><p>Evaluación, aprendizaje y optimización permanente.</p></div>
+</div></div></section>
+
+<section id="contacto" class="contact">
+  <div class="wrap">
+    <h2>Hablemos de su organización</h2>
+    <p class="contact-intro">
+      ¿Necesita fortalecer su SG-SST, implementar un Sistema de Gestión o mejorar sus procesos?
+      Comuníquese con <strong>Pardo Muñoz Soluciones</strong>. Estamos listos para conocer sus necesidades.
+    </p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon">💬</div>
+        <h3>WhatsApp</h3>
+        <p>Comuníquese directamente con nuestro equipo para solicitar información y asesoría.</p>
+        <a class="contact-btn whatsapp-btn"
+           href="https://wa.me/573164722376?text=Hola%2C%20estoy%20interesado%28a%29%20en%20los%20servicios%20de%20Pardo%20Mu%C3%B1oz%20Soluciones.%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20y%20asesor%C3%ADa."
+           target="_blank">💬 Solicitar asesoría por WhatsApp</a>
+        <div class="contact-data">316 472 2376</div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">✉️</div>
+        <h3>Correo electrónico</h3>
+        <p>Envíenos su consulta o solicitud de asesoría directamente por correo electrónico.</p>
+        <a class="contact-btn email-contact-btn"
+           href="mailto:pardomunozsoluciones@gmail.com?subject=Solicitud%20de%20asesor%C3%ADa%20-%20Pardo%20Mu%C3%B1oz%20Soluciones&body=Hola%2C%20estoy%20interesado%28a%29%20en%20los%20servicios%20de%20Pardo%20Mu%C3%B1oz%20Soluciones.%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n."
+           >✉️ Enviar correo</a>
+        <a class="email-address" href="mailto:pardomunozsoluciones@gmail.com">pardomunozsoluciones@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="contact-message">
+      <strong>Ingeniería • Calidad • Seguridad • Confianza</strong>
+      <span>Soluciones prácticas y profesionales para fortalecer su organización.</span>
+    </div>
+  </div>
+</section>
+<footer>© 2026 Pardo Muñoz Soluciones · Ingeniería • Calidad • Seguridad • Confianza</footer>
+</body></html>
